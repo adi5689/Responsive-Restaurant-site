@@ -736,12 +736,33 @@ footer .share a:hover {
         padding: 2rem;  
         transition: transform 0.2s; 
     }
+    .review .box-container .box {
+        padding: 2rem 1rem;
+    }
+    .review .box-container .box img {
+        width: 20px;
+    }
 
-
+    .blogs .box-container .box .content {
+        padding: 0.5rem;
+    }
+    .blogs .box-container .box .content .title {
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .blogs .box-container .box .content span {
+        padding-top: 10px;
+    }
+    section {
+        padding: 2rem 4%;
+    }
+    .blogs .box-container .box .content p {
+        padding-top: 4rem;
+    }
     .box-container {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(25rem, 1fr));
-        gap: 1.5rem;
+         display: grid;
+        grid-template-columns: repeat(1, minmax(15rem, 1fr));
+        gap: 1rem;
     }
 }
 
